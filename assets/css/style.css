@@ -1,3 +1,16 @@
 :root{
-    
+    --cyan          :#1CB9C8;
+    --background    :#033D75;
+
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.icon{
+    width: 49px;
+    height: 48px;
+    flex-shrink: 0;
 }
