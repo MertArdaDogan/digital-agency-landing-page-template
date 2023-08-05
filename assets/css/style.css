@@ -18,10 +18,6 @@
     --about-header      :#EBEBEB;
     --container         :#FAFAFA;
 }
-@font-face {
-    font-family: Exo;
-    src: url(/assets/fonts/Exo/);
-}
 body{
     width: 1920px;
     height: 9405px;
