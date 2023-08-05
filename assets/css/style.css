@@ -18,6 +18,10 @@
     --about-header      :#EBEBEB;
     --container         :#FAFAFA;
 }
+@font-face {
+    font-family: Exo;
+    src: url(/assets/fonts/Exo/);
+}
 body{
     width: 1920px;
     height: 9405px;
@@ -26,6 +30,36 @@ body{
 header{
     width: 1920px;
     height: 189px;
+}
+header .container{
+    display: flex;
+}
+.top-bar{
+    width: 1920px;
+    height: 130px;
+}
+.logo{
+    width: 221px;
+    height: 51px;
+}
+.logo .logo-name{
+    color: #033D75;
+    font-family: Quicksand;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.68px;
+}  
+.logo span{
+    color: #1CB9C8;
+    text-align: center;
+    font-family: Exo;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.68px;
 }
 a{
     text-decoration: none;
