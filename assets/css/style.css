@@ -1,7 +1,27 @@
 :root{
-    --cyan          :#1CB9C8;
-    --background    :#033D75;
-
+    --white             :#FFFFFF;
+    --cyan              :#1CB9C8;
+    --header            :#1C1C23;
+    --subheader         :#666666;
+    --text              :#555555;
+    --primary           :#033D75;
+    --container-white   :#F5F5F5;
+    --border            :#979797;
+    --footer-text       :#BBBBBB;
+    --date-text         :#686868;
+    --black-container   :#000000;
+    --footer-bottom     :#23232C;
+    --footer-bottom-text:#999999;
+    --about-text        :#A2A2A2;
+    --about-subheader   :#BFBFBF;   
+    --footer-categorıes :#DFDFDF;
+    --about-header      :#EBEBEB;
+    --container         :#FAFAFA;
+}
+body{
+    width: 1920px;
+    height: 9405px;
+    background: #fff;
 }
 a{
     text-decoration: none;
@@ -13,4 +33,7 @@ li{
     width: 49px;
     height: 48px;
     flex-shrink: 0;
+}
+.uppercase{
+    text-transform: uppercase;
 }
