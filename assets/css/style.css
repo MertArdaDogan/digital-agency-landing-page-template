@@ -23,6 +23,10 @@ body{
     height: 9405px;
     background: #fff;
 }
+header{
+    width: 1920px;
+    height: 189px;
+}
 a{
     text-decoration: none;
 }
@@ -32,7 +36,6 @@ li{
 .icon{
     width: 49px;
     height: 48px;
-    flex-shrink: 0;
 }
 .uppercase{
     text-transform: uppercase;
