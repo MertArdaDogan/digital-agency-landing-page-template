@@ -44,6 +44,7 @@ header{
     font-family: Quicksand;
     font-size: 34px;
     font-weight: 400;
+    margin-left: 10px;
 }
 .logo span{
     color: var(--cyan);
@@ -51,11 +52,16 @@ header{
     font-size: 34px;
     font-weight: 700;
 }
+.contact{
+    position: relative;
+    bottom: 50px;
+    left: 700px;
+}
 .phone{
     display: inline-block;
     width: 17px;
-    margin-left: 700px;
-    margin-bottom: -10px;
+    margin-bottom: -4px;
+    margin-right: 5px;
 }
 .phone-number{
     display: inline-block;
@@ -63,13 +69,17 @@ header{
     font-family: Open Sans;
     font-size: 16px;
     font-weight: 600;
-    position: 2px;
 }
 .line-black{
     display: inline-block;
+    position: relative;
+    top: 10px;
+    margin: 0px 25px;
 }
 .email-svg{
     width: 17px;
+    margin-bottom: -4px;
+    margin-right: 5px;
 }
 .email{
     display: inline-block;
@@ -87,4 +97,7 @@ li{
 }
 .uppercase{
     text-transform: uppercase;
+}
+nav{
+    
 }
