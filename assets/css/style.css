@@ -19,6 +19,7 @@
     --container         :#FAFAFA;
     --exo               :'Exo', sans-serif;
     --quicksand         :'Quicksand', sans-serif;
+    --open-sans         :'Open Sans', sans-serif;
 }
 body{
     width: 1920px;
@@ -30,6 +31,7 @@ header{
 }   
 .logo{
     display: inline-block;
+    
 }
 .logo-svg{
     display: inline-block;
@@ -51,18 +53,31 @@ header{
 }
 .phone{
     display: inline-block;
+    width: 17px;
+    margin-left: 700px;
+    margin-bottom: -10px;
 }
 .phone-number{
     display: inline-block;
+    color: var(--subheader);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    position: 2px;
 }
 .line-black{
     display: inline-block;
 }
+.email-svg{
+    width: 17px;
+}
 .email{
     display: inline-block;
-}
-.email-svg{
-    display: inline-block;
+    color: var(--subheader);
+    text-align: right;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
 }
 a{
     text-decoration: none;
