@@ -25,18 +25,19 @@ body{
     width: 1920px;
     height: 9405px;
     background: #FFF;
+    margin: 0;
+    padding: 0;
 }
 header{
-    background: #FFF;
+    background: #FFF
 }   
 .logo{
     display: inline-block;
-    
 }
 .logo-svg{
     display: inline-block;
     margin-left: 200px;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 .logo-name{
     display: inline-block;
@@ -55,12 +56,12 @@ header{
 .contact{
     position: relative;
     bottom: 50px;
-    left: 700px;
+    left: 800px;
 }
 .phone{
     display: inline-block;
     width: 17px;
-    margin-bottom: -4px;
+    margin-bottom: -3px;
     margin-right: 5px;
 }
 .phone-number{
@@ -99,5 +100,20 @@ li{
     text-transform: uppercase;
 }
 nav{
-    
+    background-color: var(--primary);
+    height: 60px;
+}
+nav ul {
+    margin-left: 130px;
+}
+li{
+    float: left;
+    font-family: Open Sans;
+    font-size: 13px;
+    font-weight: 700;
+    margin-top: 22px;
+    margin-left: 30px;
+}
+li a{
+    color: #FFF;
 }
