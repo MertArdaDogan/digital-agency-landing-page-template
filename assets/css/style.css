@@ -17,55 +17,44 @@
     --footer-categorıes :#DFDFDF;
     --about-header      :#EBEBEB;
     --container         :#FAFAFA;
+    --exo               :'Exo', sans-serif;
+    --quicksand         :'Quicksand', sans-serif;
 }
 body{
-    width: 1920px;
-    height: 9405px;
     background: #fff;
 }
 header{
-    width: 1920px;
-    height: 189px;
-}
-header .container{
-    display: flex;
-}
+    background: #FFF;
+}   
 .top-bar{
-    width: 1920px;
-    height: 130px;
+    margin-left: 300px;
+    margin-top: 50px;
 }
 .logo{
-    width: 221px;
-    height: 51px;
+    display: inline-block;
 }
-.logo .logo-name{
-    color: #033D75;
+.logo-svg{
+    float: left;
+}
+.logo-name{
+    color: var(--primary);
     font-family: Quicksand;
     font-size: 34px;
-    font-style: normal;
     font-weight: 400;
-    line-height: 28px;
-    letter-spacing: 0.68px;
-}  
+    padding-top: 14px;
+    padding-left: 65px;
+}
 .logo span{
-    color: #1CB9C8;
-    text-align: center;
+    color: var(--cyan);
     font-family: Exo;
     font-size: 34px;
-    font-style: normal;
     font-weight: 700;
-    line-height: 28px;
-    letter-spacing: 0.68px;
 }
 a{
     text-decoration: none;
 }
 li{
     list-style: none;
-}
-.icon{
-    width: 49px;
-    height: 48px;
 }
 .uppercase{
     text-transform: uppercase;
