@@ -21,34 +21,48 @@
     --quicksand         :'Quicksand', sans-serif;
 }
 body{
-    background: #fff;
+    width: 1920px;
+    height: 9405px;
+    background: #FFF;
 }
 header{
     background: #FFF;
 }   
-.top-bar{
-    margin-left: 300px;
-    margin-top: 50px;
-}
 .logo{
     display: inline-block;
 }
 .logo-svg{
-    float: left;
+    display: inline-block;
+    margin-left: 200px;
+    margin-top: 30px;
 }
 .logo-name{
+    display: inline-block;
     color: var(--primary);
     font-family: Quicksand;
     font-size: 34px;
     font-weight: 400;
-    padding-top: 14px;
-    padding-left: 65px;
 }
 .logo span{
     color: var(--cyan);
     font-family: Exo;
     font-size: 34px;
     font-weight: 700;
+}
+.phone{
+    display: inline-block;
+}
+.phone-number{
+    display: inline-block;
+}
+.line-black{
+    display: inline-block;
+}
+.email{
+    display: inline-block;
+}
+.email-svg{
+    display: inline-block;
 }
 a{
     text-decoration: none;
