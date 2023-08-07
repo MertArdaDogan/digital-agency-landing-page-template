@@ -29,7 +29,7 @@ body{
     padding: 0;
 }
 header{
-    background: #FFF
+    background: var(--white);
 }   
 .logo{
     display: inline-block;
