@@ -22,12 +22,41 @@
     --open-sans         :'Open Sans', sans-serif;
 }
 body{
-    width: 1920px;
-    height: 9405px;
+    width: 1706px;
     background: #FFF;
     margin: 0;
     padding: 0;
 }
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+nav{
+    background-color: var(--primary);
+    height: 60px;
+}
+nav ul {
+    margin-left: 130px;
+}
+li{
+    float: left;
+    font-family: Open Sans;
+    font-size: 13px;
+    font-weight: 700;
+    margin-top: 22px;
+    margin-left: 30px;
+}
+li a{
+    color: #FFF;
+}
+
+/* Header */
+
 header{
     background: var(--white);
 }   
@@ -54,9 +83,8 @@ header{
     font-weight: 700;
 }
 .contact{
-    position: relative;
-    bottom: 50px;
-    left: 800px;
+    display: inline-block;
+    padding-left: 600px;
 }
 .phone{
     display: inline-block;
@@ -90,30 +118,6 @@ header{
     font-size: 16px;
     font-weight: 600;
 }
-a{
-    text-decoration: none;
-}
-li{
-    list-style: none;
-}
-.uppercase{
-    text-transform: uppercase;
-}
-nav{
-    background-color: var(--primary);
-    height: 60px;
-}
-nav ul {
-    margin-left: 130px;
-}
-li{
-    float: left;
-    font-family: Open Sans;
-    font-size: 13px;
-    font-weight: 700;
-    margin-top: 22px;
-    margin-left: 30px;
-}
-li a{
-    color: #FFF;
-}
+
+/* Hero-header */
+
