@@ -23,7 +23,7 @@
     --raleway           :'Raleway'  , sans-serif;
 }
 body{
-    width: 1706px;
+    width: 1728px;
     background: #FFF;
     margin: 0;
     padding: 0;
@@ -104,8 +104,9 @@ header{
 }
 .search{
     width: 20px;
-    padding-top: 20px;
-    padding-left: 500px;
+    position: relative;
+    left: 500px;
+    top: 20px;
 }
 nav{
     background-color: var(--primary);
@@ -155,4 +156,34 @@ li a{
 .hero-header-button{
     font-family: var(--open-sans);
     font-weight: 700;
+    font-size: 13px;
+}
+.hero-header-button-back-white{
+    width: 165px;
+    height: 55px;
+    background-color: var(--white);
+    display: inline-block;
+    text-align: center;
+    margin-right: 15px;
+}
+.hero-header-button-back-blue{
+    width: 165px;
+    height: 55px;
+    border: 1px solid var(--cyan);
+    display: inline-block;
+    text-align: center;
+}
+.hero-header-button-white{
+    color: var(--header);
+    position: relative;
+    top: 20px;
+}
+.hero-header-button-blue{
+    color: var(--white);
+    position: relative;
+    top: 20px;
+}
+.button-svg{
+    width: 10px;
+    padding-left: 5px;
 }
