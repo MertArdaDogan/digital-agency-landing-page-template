@@ -37,6 +37,9 @@ li{
 .uppercase{
     text-transform: uppercase;
 }
+.text-center{
+    text-align: center;
+} 
 
 /* Header */
 
@@ -190,4 +193,43 @@ li a{
 .button-svg{
     width: 10px;
     padding-left: 5px;
+}
+
+/* Services */
+
+#services .container{
+    margin-top: 80px;
+}
+.section-subheader{
+    color: var(--subheader);
+    font-family: var(--open-sans);
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+}
+.section-header{
+    color: var(--header);
+    font-family: var(--raleway);
+    font-size: 29px;
+    font-weight: 800;
+    letter-spacing: 1.45px;
+}
+.shape{
+    display: block;
+    margin: auto;
+    position: relative;
+    bottom: 13px;
+}
+.services-text{
+    color: var(--subheader);
+    font-family: var(--open-sans);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.services-cards{
+    display: flex;
+}
+.services-card{
+    
 }
