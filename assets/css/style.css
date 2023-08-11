@@ -229,7 +229,9 @@ li a{
 }
 .services-cards{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 .services-card{
-    
+    width: 434px;
 }
