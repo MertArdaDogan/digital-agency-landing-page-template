@@ -274,3 +274,17 @@ li a{
 
 /* About Style */
 
+#about .container{
+    
+}
+.about-place-holder-gray{
+    position: absolute;
+}
+.about-hover{
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.place-holder-body{
+    position: absolute;
+}
