@@ -277,6 +277,25 @@ li a{
 #about .container{
     
 }
+.place-holder-body{
+    position: absolute;
+    z-index: 100;
+    color: var(--white);
+}
+.place-holder-header{
+    font-family: var(--raleway);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+.place-holder-subheader{
+    font-family: var(--open-sans);
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+}
 .about-place-holder-gray{
     position: absolute;
 }
@@ -284,7 +303,4 @@ li a{
     position: relative;
     top: 10px;
     left: 10px;
-}
-.place-holder-body{
-    position: absolute;
 }
