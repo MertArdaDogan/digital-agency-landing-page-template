@@ -23,7 +23,7 @@
     --raleway           :'Raleway'  , sans-serif;
 }
 body{
-    width: 1713px;
+    width: 1658px;
     background: #FFF;
     margin: 0;
     padding: 0;
@@ -172,6 +172,7 @@ li a{
     display: inline-block;
     text-align: center;
     margin-right: 15px;
+    margin-top: 20px;
 }
 .hero-header-button-back-blue{
     width: 165px;
@@ -276,7 +277,7 @@ li a{
 
 #about .container{
     background-color: var(--header);
-    height: 700px;
+    height: 770px;
 }
 .about-left{
     display: inline-block;
@@ -285,8 +286,8 @@ li a{
     margin: 0;
     position: relative;
     color: var(--white);
-    top: 250px;
-    right: 230px;
+    top: 320px;
+    left: 80px;
     z-index: 100;
 }
 .place-holder-header{
@@ -317,8 +318,8 @@ li a{
 .about-right{
     display: inline-block;
     position: relative;
-    bottom: 120px;
-    right: 125px;
+    bottom: 525px;
+    left: 950px;
 }
 .about-subheader{
     color: var(--about-subheader);
@@ -341,6 +342,10 @@ li a{
     font-size: 15px;
     font-weight: 400;
     line-height: 24px;
+    margin-top: 20px;
+}
+.about-bar{
+    margin-top: 25px;
 }
 .bar-header{
     color: var(--white);
@@ -349,4 +354,30 @@ li a{
     font-weight: 700;
     line-height: 28px; 
     letter-spacing: 0.26px;
+    margin-bottom: -10px;
+}
+.bar-percent{
+    display: inline-block;
+    color: var(--white);
+    font-family: var(--open-sans);
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.26px;
+}
+.about-button-back{
+    margin-top: 35px;
+    width: 172px;
+    height: 50px;
+    background-color: var(--cyan);
+    text-align: center;
+    display: inline-block;
+}
+.about-button{
+    color: var(--white);
+    font-family: var(--open-sans);
+    font-size: 13px;
+    font-weight: 700;
+    position: relative;
+    top: 16px;
 }
