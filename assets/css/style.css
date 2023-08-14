@@ -316,4 +316,29 @@ li a{
 }
 .about-right{
     display: inline-block;
+    position: relative;
+    bottom: 120px;
+    right: 125px;
+}
+.about-subheader{
+    color: var(--about-subheader);
+    font-family: var(--open-sans);
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+}
+.about-header{
+    color: var(--about-header);
+    font-family: var(--raleway);
+    font-size: 29px;
+    font-weight: 800;
+    letter-spacing: 1.45px;
+}
+.about-text{
+    color: var(--about-text);
+    font-family: var(--open-sans);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
 }
