@@ -342,3 +342,11 @@ li a{
     font-weight: 400;
     line-height: 24px;
 }
+.bar-header{
+    color: var(--white);
+    font-family: var(--open-sans);
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 28px; 
+    letter-spacing: 0.26px;
+}
