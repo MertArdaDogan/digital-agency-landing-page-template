@@ -275,12 +275,19 @@ li a{
 /* About Style */
 
 #about .container{
-    
+    background-color: var(--header);
+    height: 700px;
+}
+.about-left{
+    display: inline-block;
 }
 .place-holder-body{
-    position: absolute;
-    z-index: 100;
+    margin: 0;
+    position: relative;
     color: var(--white);
+    top: 250px;
+    right: 230px;
+    z-index: 100;
 }
 .place-holder-header{
     font-family: var(--raleway);
@@ -290,17 +297,23 @@ li a{
     letter-spacing: 1px;
 }
 .place-holder-subheader{
-    font-family: var(--open-sans);
+    font-family: var(--open-sans);  
     font-size: 14px;
     font-style: italic;
     font-weight: 400;
     line-height: 24px;
+    margin-top: 30px;
 }
 .about-place-holder-gray{
-    position: absolute;
+    position: relative;
+    left: 350px;
+    top: 10px;
 }
 .about-hover{
     position: relative;
-    top: 10px;
-    left: 10px;
+    top: 0px;
+    left: -194px;
+}
+.about-right{
+    display: inline-block;
 }
