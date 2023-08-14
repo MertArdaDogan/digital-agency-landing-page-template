@@ -287,7 +287,7 @@ li a{
     position: relative;
     color: var(--white);
     top: 320px;
-    left: 80px;
+    right: 15px;
     z-index: 100;
 }
 .place-holder-header{
@@ -307,19 +307,19 @@ li a{
 }
 .about-place-holder-gray{
     position: relative;
-    left: 350px;
+    left: 250px;
     top: 10px;
 }
 .about-hover{
     position: relative;
     top: 0px;
-    left: -194px;
+    right: 293px;
 }
 .about-right{
     display: inline-block;
     position: relative;
     bottom: 525px;
-    left: 950px;
+    left: 840px;
 }
 .about-subheader{
     color: var(--about-subheader);
@@ -364,9 +364,10 @@ li a{
     font-weight: 600;
     line-height: 28px;
     letter-spacing: 0.26px;
+    margin-left: 5px;
 }
 .about-button-back{
-    margin-top: 35px;
+    margin-top: 40px;
     width: 172px;
     height: 50px;
     background-color: var(--cyan);
