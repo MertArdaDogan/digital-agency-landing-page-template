@@ -23,7 +23,7 @@
     --raleway           :'Raleway'  , sans-serif;
 }
 body{
-    width: 1658px;
+    width: 1705px;
     background: #FFF;
     margin: 0;
     padding: 0;
@@ -222,7 +222,7 @@ li a{
     position: relative;
     bottom: 13px;
 }
-.services-text{
+.section-text{
     color: var(--subheader);
     font-family: var(--open-sans);
     font-size: 15px;
@@ -286,8 +286,8 @@ li a{
     margin: 0;
     position: relative;
     color: var(--white);
-    top: 320px;
-    right: 15px;
+    top: 325px;
+    right: 70px;
     z-index: 100;
 }
 .place-holder-header{
@@ -307,19 +307,19 @@ li a{
 }
 .about-place-holder-gray{
     position: relative;
-    left: 250px;
+    left: 200px;
     top: 10px;
 }
 .about-hover{
     position: relative;
     top: 0px;
-    right: 293px;
+    right: 344px;
 }
 .about-right{
     display: inline-block;
     position: relative;
-    bottom: 525px;
-    left: 840px;
+    right: 250px;
+    bottom: 50px;
 }
 .about-subheader{
     color: var(--about-subheader);
@@ -381,4 +381,35 @@ li a{
     font-weight: 700;
     position: relative;
     top: 16px;
+}
+
+/* Services-two Style */
+
+#services-two .container{
+    height: 945px;
+    margin-top: 80px;
+}
+.quote{
+    color: var(--cyan);
+    font-family: var(--raleway);
+    font-size: 100px;
+    font-weight: 800;
+    position: relative;
+    bottom: 40px;
+}
+.services-left{
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+.services-text{
+    display: inline-block;
+    color: var(--subheader);
+    text-align: center;
+    font-family: var(--open-sans);
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 30px; 
+    letter-spacing: 0.48px;
 }
