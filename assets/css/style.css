@@ -413,3 +413,18 @@ li a{
     line-height: 30px; 
     letter-spacing: 0.48px;
 }
+.place-holder-green{
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+.services-name{
+    color: var(--header);
+    text-align: center;
+    font-family: var(--open-sans);
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 28px; 
+    letter-spacing: 0.26px;
+    margin-top: 15px;
+}
