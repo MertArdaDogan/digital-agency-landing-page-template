@@ -428,3 +428,6 @@ li a{
     letter-spacing: 0.26px;
     margin-top: 15px;
 }
+.services-right{
+    display: inline-block;
+}
