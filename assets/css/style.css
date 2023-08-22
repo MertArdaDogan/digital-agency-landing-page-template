@@ -151,7 +151,7 @@ li a{
     font-size: 44px;
     font-weight: 700;
 }
-.productıve{
+.color-cyan{
     color: var(--cyan);
 }
 .hero-header-text{
@@ -389,18 +389,21 @@ li a{
     height: 945px;
     margin-top: 80px;
 }
+.services-body{
+    margin-top: 70px;
+}
+.services-left{
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 200px;
+}
 .quote{
     color: var(--cyan);
     font-family: var(--raleway);
     font-size: 100px;
     font-weight: 800;
     position: relative;
-    bottom: 40px;
-}
-.services-left{
-    display: inline-block;
-    margin-top: 50px;
-    margin-left: 200px;
+    bottom: 50px;
 }
 .services-text{
     display: inline-block;
@@ -412,22 +415,40 @@ li a{
     font-weight: 400;
     line-height: 30px; 
     letter-spacing: 0.48px;
+    margin-left: 30px;
 }
 .place-holder-green{
     text-align: center;
     display: block;
-    margin: auto;
+    margin-top: 30px;
+    margin-left: 260px;
 }
 .services-name{
     color: var(--header);
-    text-align: center;
     font-family: var(--open-sans);
     font-size: 13px;
     font-weight: 700;
     line-height: 28px; 
     letter-spacing: 0.26px;
     margin-top: 15px;
+    margin-left: 80px;
+}
+.services-founder{
+    color: var(--subheader);
+    font-family: var(--open-sans);
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.39px;
+    margin-left: 80px; 
 }
 .services-right{
     display: inline-block;
+    position: relative;
+    left: 200px;
+    top: 10px;
+}
+.absolute{
+    position: relative;
 }
