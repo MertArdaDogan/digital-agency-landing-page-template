@@ -449,6 +449,19 @@ li a{
     left: 200px;
     top: 10px;
 }
-.absolute{
+.relative{
     position: relative;
+}
+.left-button{
+    right: 550px;
+    bottom: 175px;
+}
+.services-button{
+    width: 30px;
+    right: 340px;
+    bottom: 175px;
+}
+.right-button{
+    right: 125px;
+    bottom: 175px;
 }
