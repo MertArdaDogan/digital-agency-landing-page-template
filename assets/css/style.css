@@ -483,6 +483,10 @@ li a{
     font-weight: 700;
     line-height: 60px; 
     letter-spacing: 0.54px;
+    display: inline-block;
+}
+.highlights-img{
+    display: inline-block;
 }
 .highlights-text-left{
     width: 293px;
@@ -503,6 +507,7 @@ li a{
     font-weight: 700;
     line-height: 60px; 
     letter-spacing: 0.54px;
+    display: inline-block;
 }
 .highlights-text-right{
     width: 294px;
