@@ -23,7 +23,7 @@
     --raleway           :'Raleway'  , sans-serif;
 }
 body{
-    width: 1705px;
+    width: 1753px;
     background: #FFF;
     margin: 0;
     padding: 0;
@@ -236,7 +236,7 @@ li a{
 }
 .services-card{
     margin-top: -70px;
-    flex-basis: 433px;
+    flex-basis: 450px;
 }
 .services-card-img-back{
     text-align: center;
@@ -470,10 +470,16 @@ li a{
 
 #highlights{
     height: 830px;
+    margin-top: -50px;
+    background-color: var(--container);
 }
 .highlights{
     float: left;
     position: relative;
+    margin-top: 100px;
+}
+.left{
+    left: 300px;
 }
 .highlights-header-left{
     color: var(--header);
@@ -483,6 +489,8 @@ li a{
     font-weight: 700;
     line-height: 60px; 
     letter-spacing: 0.54px;
+    width: 260px;
+    display: inline-block;
 }
 .highlights-img{
     display: inline-block;
@@ -500,7 +508,7 @@ li a{
     line-height: 24px;
 }
 .right{
-    left: 200px;
+    left: 870px;
 }
 .highlights-header-right{
     color: var(--header);
