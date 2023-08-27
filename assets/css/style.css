@@ -22,8 +22,10 @@
     --open-sans         :'Open Sans', sans-serif;
     --raleway           :'Raleway'  , sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
-
     background: #FFF;
     margin: 0;
     padding: 0;
@@ -84,7 +86,7 @@ header{
 .phone-number{
     display: inline-block;
     color: var(--subheader);
-    font-family: Open Sans;
+    font-family: var(--open-sans);
     font-size: 16px;
     font-weight: 600;
 }
@@ -103,7 +105,7 @@ header{
     display: inline-block;
     color: var(--subheader);
     text-align: right;
-    font-family: Open Sans;
+    font-family: var(--open-sans);
     font-size: 16px;
     font-weight: 600;
 }
@@ -123,7 +125,7 @@ nav ul {
 }
 li{
     float: left;
-    font-family: Open Sans;
+    font-family: var(--open-sans);
     font-size: 13px;
     font-weight: 700;
     margin-top: 22px;
@@ -199,7 +201,7 @@ li a{
 /* Services */
 
 #services .container{
-    margin-top: 80px;
+    padding-top: 80px;
     height: 760px;
 }
 .section-subheader{
@@ -387,7 +389,7 @@ li a{
 
 #services-two .container{
     height: 945px;
-    margin-top: 80px;
+    padding-top: 80px;
 }
 .services-body{
     margin-top: 70px;
@@ -534,7 +536,8 @@ li a{
 /* Pricing Style */
 
 #pricing .container{
-    margin-top: 150px;
+    margin: 150px;
+    padding-top: 50px;
     height: 1000px;
 }
 .pricing-cards{
