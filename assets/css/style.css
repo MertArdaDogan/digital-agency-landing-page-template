@@ -23,7 +23,7 @@
     --raleway           :'Raleway'  , sans-serif;
 }
 body{
-    width: 1753px;
+
     background: #FFF;
     margin: 0;
     padding: 0;
@@ -294,7 +294,7 @@ li a{
     font-family: var(--raleway);
     font-size: 20px;
     font-weight: 500;
-    line-height: 30px;
+    line-height: 30px; 
     letter-spacing: 1px;
 }
 .place-holder-subheader{
@@ -316,10 +316,10 @@ li a{
     right: 344px;
 }
 .about-right{
-    display: inline-block;
+    width: 500px;
     position: relative;
-    right: 250px;
-    bottom: 50px;
+    left: 810px;
+    bottom: 527px;
 }
 .about-subheader{
     color: var(--about-subheader);
@@ -479,7 +479,7 @@ li a{
     margin-top: 100px;
 }
 .left{
-    left: 300px;
+    left: 250px;
 }
 .highlights-card{
     margin: 30px 0;
@@ -511,7 +511,7 @@ li a{
     line-height: 24px;
 }
 .right{
-    left: 870px;
+    left: 840px;
 }
 .highlights-header-right{
     color: var(--header);
@@ -535,4 +535,43 @@ li a{
 
 #pricing .container{
     margin-top: 150px;
+}
+.pricing-cards{
+    display: flex;
+    place-content: center;
+}
+.pricing-card{
+    width: 371px;
+    height: 676px;
+    margin: 15px;
+}
+.pricing-card-top{
+    height: 240px;
+    background-color: var(--cyan);
+}
+.pricing-card-back{
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 45px;
+    width: 66px;
+    height: 66px;
+}
+.pricing-price{
+    text-align: center;
+    color: var(--white);
+    font-family: var(--raleway);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 60px; 
+    letter-spacing: 0.54px;
+}
+.price{
+    color: var(--white);
+    font-family: var(--raleway);
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 60px;
+    letter-spacing: 3.5px;
+    text-transform: uppercase;
 }
