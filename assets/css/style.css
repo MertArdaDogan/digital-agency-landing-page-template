@@ -316,7 +316,7 @@ li a{
     right: 344px;
 }
 .about-right{
-    width: 500px;
+    width: 600px;
     position: relative;
     left: 810px;
     bottom: 527px;
@@ -535,15 +535,19 @@ li a{
 
 #pricing .container{
     margin-top: 150px;
+    height: 1000px;
 }
 .pricing-cards{
     display: flex;
     place-content: center;
+    margin-top: 60px;
 }
 .pricing-card{
-    width: 371px;
-    height: 676px;
+    height: 650px;
     margin: 15px;
+}
+.dark{
+    background-color: var(--primary) !important;
 }
 .pricing-card-top{
     height: 240px;
@@ -554,11 +558,17 @@ li a{
     margin: auto;
     position: relative;
     top: 45px;
-    width: 66px;
-    height: 66px;
+}
+.pricing-img{
+    width: 30px;
+    display: block;
+    margin: auto;
+    position: relative;
+    bottom: 3px;
 }
 .pricing-price{
     text-align: center;
+    margin-top: 45px;
     color: var(--white);
     font-family: var(--raleway);
     font-size: 18px;
@@ -574,4 +584,49 @@ li a{
     line-height: 60px;
     letter-spacing: 3.5px;
     text-transform: uppercase;
+    margin-right: 20px;
+}
+.pricing-card-bottom{
+    width: 370px;
+    height: 435px;
+    background-color: var(--container);
+}
+.pricing-card-feature{
+    text-align: center;
+    color: var(--subheader);
+    font-family: var(--open-sans);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 46px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.line-black-vertical{
+    display: block;
+    margin: auto;
+}
+.pricing-card-button-back{
+    margin: auto;
+    display: block;
+    width: 213px;
+    height: 50px;
+    background-color: var(--cyan);
+    margin-top: 25px;
+}
+.pricing-card-button{
+    text-align: center;
+    padding-top: 10px;
+    color: var(--white);
+    text-align: center;
+    font-family: var(--open-sans);
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.26px;
+    text-transform: uppercase;
+}
+.pricing-button{
+    width: 15px;
+    position: relative;
+    top: 2px;
 }
