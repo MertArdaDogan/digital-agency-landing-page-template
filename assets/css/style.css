@@ -210,6 +210,7 @@ li a{
     font-size: 14px;
     font-style: italic;
     font-weight: 400;
+    line-height: 24px;
 }
 .section-header{
     color: var(--header);
@@ -280,6 +281,7 @@ li a{
 #about .container{
     background-color: var(--header);
     height: 770px;
+    position: relative;
 }
 .about-left{
     display: inline-block;
@@ -632,4 +634,22 @@ li a{
     width: 15px;
     position: relative;
     top: 2px;
+}
+
+/* How To Work Style */
+
+#work .container{
+    background-color: var(--primary);
+    padding-top: 90px;
+}
+.white{
+    color: var(--white);
+}
+.work-cards{
+    display: flex;
+    place-content: center;
+}
+.work-card{
+    flex-basis: 365px;
+    margin: 10px;
 }
