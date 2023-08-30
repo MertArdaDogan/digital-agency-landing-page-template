@@ -115,7 +115,7 @@ header{
     left: 500px;
     top: 20px;
 }
-nav{
+header nav{
     background-color: var(--primary);
     margin-top: 50px;
     height: 60px;
@@ -641,6 +641,7 @@ li a{
 #work .container{
     background-color: var(--primary);
     padding-top: 90px;
+    height: 700px;
 }
 .white{
     color: var(--white);
@@ -648,8 +649,105 @@ li a{
 .work-cards{
     display: flex;
     place-content: center;
+    margin-top: 80px;
 }
 .work-card{
-    flex-basis: 365px;
+    flex-basis: 400px;
     margin: 10px;
+}
+.work-card-body{
+    display: inline-block;
+    margin-left: 15px;
+    color: var(--white);
+    position: relative;
+    bottom: 70px;
+}
+.work-card-number{
+    position: relative;
+    color: var(--white);
+    font-family: var(--raleway);
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 60px;
+    padding-left: 15px;
+}
+.work-card-back{
+    position: relative;
+    bottom: 175px;
+}
+.work-card-subheader{
+    font-family: var(--open-sans);
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+}
+.work-card-header{
+    font-family: var(--raleway);
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: 1px;
+}
+.work-card-text{
+    width: 294px;
+    font-family: var(--open-sans);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px; 
+}
+.work-card-footer{
+    font-family: var(--raleway);
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 60px; 
+    letter-spacing: 0.39px;
+}
+.work-button-back{
+    margin:  auto;
+    display: block;
+    width: 170px;
+    height: 50px;
+    background-color: var(--white);
+}
+.work-button{
+    text-align: center;
+    color: var(--cyan);
+    font-family: var(--open-sans);
+    font-size: 13px;
+    font-weight: 700;
+    padding-top: 15px;
+}
+.work-button-svg{
+    position: relative;
+    top: 2px;
+    width: 13px;
+    padding-left: 5px;
+}
+
+/* Gallery Style */
+
+#gallery .container{
+    padding-top: 80px;
+}
+.gallery-nav{
+    margin-left: 100px;
+}
+.gallery-nav ul li{
+    margin-left: 60px;
+}
+.place-holder-blue{
+    margin-top: 10px;
+    width: 380px;
+    height: 281px;  
+    background-color: var(--primary);
+}
+.place-holder-orange-horizontal{
+    width: 390px;
+    height: 572px;
+    background-color:chocolate
+}
+.place-holder-orange-vertical{
+    width: 380px;
+    height: 281px;
+    background-color: chocolate;
 }
