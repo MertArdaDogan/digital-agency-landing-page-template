@@ -735,19 +735,43 @@ li a{
 .gallery-nav ul li{
     margin-left: 60px;
 }
+.place-holder{
+    margin-left: 200px;
+    width: 1170px;
+    height: 572px;
+}
 .place-holder-blue{
-    margin-top: 10px;
+    margin: 0 5px 5px 0;
     width: 380px;
     height: 281px;  
     background-color: var(--primary);
+    display: inline-block;
+    position: relative;
+    bottom: 250px;
 }
 .place-holder-orange-horizontal{
+    margin: 0 5px 0 0;
     width: 390px;
     height: 572px;
-    background-color:chocolate
+    background-color:chocolate;
+    display: inline-block;
 }
 .place-holder-orange-vertical{
     width: 380px;
     height: 281px;
     background-color: chocolate;
+    display: inline-block;
+}
+.there{
+    position: relative;
+    bottom: 290px;
+}
+.four{
+    position: relative;
+    bottom: 290px;
+}
+.five{
+    position: relative;
+    left: 405px;
+    bottom: 290px;
 }
