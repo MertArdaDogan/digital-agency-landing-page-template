@@ -26,6 +26,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
+    width: 1706px;
     background: #FFF;
     margin: 0;
     padding: 0;
@@ -483,7 +484,7 @@ li a{
     margin-top: 100px;
 }
 .left{
-    left: 300px;
+    left: 250px;
 }
 .highlights-card{
     margin: 30px 0;
@@ -515,7 +516,7 @@ li a{
     line-height: 24px;
 }
 .right{
-    left: 860px;
+    left: 870px;
 }
 .highlights-header-right{
     color: var(--header);
